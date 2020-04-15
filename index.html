@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>CGPA Calculator</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="box">
+		<h1>GPA Calculator</h1>
+		<!-- bangla input -->
+		<pre style="display: inline-block;">Bangla			</pre>
+		<input type="text" id="b1" placeholder="1st"/>
+		<input type="text" id="b2" placeholder="2nd"/>
+		<input type="text" id="b3" placeholder="3rd"/>
+		<p id="ba" style="display: inline-block; margin-left: 20px;"></p>
+		<p id="bp" style="display: inline-block; margin-left: 20px;"></p>
+		<br />
+
+		<!-- english input -->
+		<pre style="display: inline-block;">English			</pre>
+		<input type="text" id="e1" placeholder="1st"/>
+		<input type="text" id="e2" placeholder="2nd"/>
+		<input type="text" id="e3" placeholder="3rd"/>
+		<p id="ea" style="display: inline-block; margin-left: 20px;"></p>
+		<p id="ep" style="display: inline-block; margin-left: 20px;"></p>
+		<br />
+
+		<!-- math input -->
+		<pre style="display: inline-block;">Math			</pre>
+		<input type="text" id="m1" placeholder="1st"/>
+		<input type="text" id="m2" placeholder="2nd"/>
+		<input type="text" id="m3" placeholder="3rd"/>
+		<p id="ma" style="display: inline-block; margin-left: 20px;"></p>
+		<p id="mp" style="display: inline-block; margin-left: 20px;"></p>
+		<br />
+
+		<!-- social science input -->
+		<pre style="display: inline-block;">Social science		</pre>
+		<input type="text" id="s1" placeholder="1st"/>
+		<input type="text" id="s2" placeholder="2nd"/>
+		<input type="text" id="s3" placeholder="3rd"/>
+		<p id="sa" style="display: inline-block; margin-left: 20px;"></p>
+		<p id="sp" style="display: inline-block; margin-left: 20px;"></p>
+		<br />
+
+		<!-- islam input -->
+		<pre style="display: inline-block;">Islam			</pre>
+		<input type="text" id="i1" placeholder="1st"/>
+		<input type="text" id="i2" placeholder="2nd"/>
+		<input type="text" id="i3" placeholder="3rd"/>
+		<p id="ia" style="display: inline-block; margin-left: 20px;"></p>
+		<p id="ip" style="display: inline-block; margin-left: 20px;"></p>
+		<br />
+
+		<!-- higher math input -->
+		<pre style="display: inline-block;">Higher Math(OP)		</pre>
+		<input type="text" id="hm1" placeholder="1st"/>
+		<input type="text" id="hm2" placeholder="2nd"/>
+		<input type="text" id="hm3" placeholder="3rd"/>
+		<p id="hma" style="display: inline-block; margin-left: 20px;"></p>
+		<p id="hmp" style="display: inline-block; margin-left: 20px;"></p>
+		<br />
+		<br />
+
+		<!-- cgpa calculation button -->
+		<input type="button" value="GPA" onclick="cgpa()" />
+		<br />
+		<br />
+
+		<!-- result will print here -->
+		<h3 style="display: inline-block;" id="credit"></h3>
+		<br>
+		<h3 style="display: inline-block;" id="cgpa"></h3>
+	</div>
+	<!-- javascript file -->
+	<script src="js/main.js"></script>
+</body>
+
+</html>
